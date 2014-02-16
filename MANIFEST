@@ -1,6 +1,7 @@
+Changes
 MANIFEST
 Makefile.PL
-PP.pm
+lib/Clone/PP.pm
 t/01array.t
 t/02hash.t
 t/03scalar.t
@@ -11,3 +12,5 @@ t/dclone.t
 t/dump.pl
 t/tied.pl
 README
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
