@@ -25,8 +25,7 @@
             "Benchmark" : "0",
             "Carp" : "0",
             "Data::Dumper" : "0",
-            "ExtUtils::MakeMaker" : "0",
-            "Test::Array" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
@@ -45,5 +44,5 @@
       }
    },
    "release_status" : "stable",
-   "version" : "1.03"
+   "version" : "1.04"
 }
