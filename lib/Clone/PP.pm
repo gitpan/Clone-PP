@@ -6,7 +6,7 @@ use warnings;
 use vars qw($VERSION @EXPORT_OK);
 use Exporter;
 
-$VERSION = 1.04;
+$VERSION = 1.05;
 
 @EXPORT_OK = qw( clone );
 sub import { goto &Exporter::import } # lazy Exporter
@@ -168,6 +168,9 @@ polymorphic data cloning (see its documentation for what that means).
 
 L<Clone::Any> - use whichever of the cloning methods is available.
 
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/Clone-PP>
 
 =head1 AUTHOR AND CREDITS
 

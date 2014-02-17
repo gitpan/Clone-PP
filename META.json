@@ -22,9 +22,6 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Benchmark" : "0",
-            "Carp" : "0",
-            "Data::Dumper" : "0",
             "ExtUtils::MakeMaker" : "0"
          }
       },
@@ -41,8 +38,22 @@
             "vars" : "0",
             "warnings" : "0"
          }
+      },
+      "test" : {
+         "requires" : {
+            "Benchmark" : "0",
+            "Carp" : "0",
+            "Data::Dumper" : "0"
+         }
       }
    },
    "release_status" : "stable",
-   "version" : "1.04"
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/neilbowers/Clone-PP.git",
+         "web" : "https://github.com/neilbowers/Clone-PP"
+      }
+   },
+   "version" : "1.05"
 }

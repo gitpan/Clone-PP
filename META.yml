@@ -26,4 +26,6 @@ requires:
   strict: 0
   vars: 0
   warnings: 0
-version: 1.04
+resources:
+  repository: git://github.com/neilbowers/Clone-PP.git
+version: 1.05
